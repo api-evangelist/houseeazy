@@ -1,7 +1,27 @@
 aid: houseeazy
 name: HouseEazy
-description: 'HouseEazy is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'HouseEazy is an Indian proptech startup, founded in 2021 by Tarun Sainani
+  and Deepak Bhatia, that runs a full-stack platform for buying and selling ready-to-move,
+  pre-owned residential homes across the Delhi NCR region (Noida, Ghaziabad, and Gurugram).
+  It uses an AI/ML-based pricing algorithm built on over two million on-ground data
+  points — registry records, market trends, and recent transactions — to price properties
+  instantly, then pairs that with 3D walkthroughs, drone imagery, and virtual staging
+  to make resale transactions fast, transparent, and secure. HouseEazy also offers
+  LoanEazy home financing and a channel-partner program, and is backed by Accel, Antler,
+  and DTU-IIF. It is a consumer-facing web application and publishes no public developer
+  API, SDK, or documentation portal.'
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets.houseeazy.com/IMG_0501-1762781149607.jpeg
 url: https://raw.githubusercontent.com/api-evangelist/houseeazy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Real Estate
+- PropTech
+- Property
+- Resale
+- India
+- Housing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://houseeazy.com/
+- type: Blog
+  url: https://www.houseeazy.com/blog
+- type: Support
+  url: https://www.houseeazy.com/contact-us
+- type: TermsOfService
+  url: https://www.houseeazy.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.houseeazy.com/privacy-policy
+- type: DomainSecurity
+  url: security/houseeazy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -10,6 +10,17 @@ description: 'HouseEazy is an Indian proptech startup, founded in 2021 by Tarun 
   LoanEazy home financing and a channel-partner program, and is backed by Accel, Antler,
   and DTU-IIF. It is a consumer-facing web application and publishes no public developer
   API, SDK, or documentation portal.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
